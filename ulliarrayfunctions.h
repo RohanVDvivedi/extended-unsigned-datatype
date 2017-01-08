@@ -1,6 +1,10 @@
 #ifndef ULLIARRAYFUNCTIONS_H_INCLUDED
 #define ULLIARRAYFUNCTIONS_H_INCLUDED
 
+#include <iostream>
+#include <bitset>
+using namespace std;
+
 //typedef unsigned long long int ulli;
 typedef unsigned char ulli;
 /*

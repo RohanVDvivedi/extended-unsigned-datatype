@@ -1,16 +1,14 @@
 //typedef unsigned long long int ulli;
-#include <iostream>
-#include <bitset>
+
 #include "ulliarrayfunctions.h"
-using namespace std;
-typedef unsigned char ulli;
+
 /*
 	ulli unsigned long long int
 	NOB = number of bits to be considered
 	NOE = number of elements in the array
 */
 ulli firsthalf = 0xF0;
-/*ulli firsthalf = 0hFFFFFFFF00000000;*/
+/*ulli firsthalf = 0hFFFFFFFF00000000;*/ // if it is unsigned long long int
 ulli secondhalf = ~firsthalf;
 
 void MOVE(ulli* data1,ulli* dest,ulli NOE)

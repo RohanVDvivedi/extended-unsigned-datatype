@@ -1,8 +1,4 @@
 #include "charnum.h"
-#include "ulliarrayfunctions.h"
-#include <vector>
-#include <iostream>
-using namespace std;
 
 ulli getbineq(char c)
 {
